@@ -12,5 +12,29 @@ alert('Hello world!')
 <button type="button" onclick="find()">Find</button>
 
 
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCAnbRCzq4R9DkNgvYK0yfuWrSdf24sZUY",
+    authDomain: "powerstock-25c20.firebaseapp.com",
+    databaseURL: "https://powerstock-25c20.firebaseio.com",
+    projectId: "powerstock-25c20",
+    storageBucket: "powerstock-25c20.appspot.com",
+    messagingSenderId: "614690830131",
+    appId: "1:614690830131:web:078d7045dc028d620bf046",
+    measurementId: "G-Z1N2GW13TK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
